@@ -1,4 +1,4 @@
-// change the import as needed to import your busuiness class from the correct .js file
+// change the require as needed to import your business class from the correct .js file
 const Kata = require('./kata');
 
 // customize the descriptions of the suites and individual tests as needed
