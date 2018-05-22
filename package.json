@@ -1,6 +1,6 @@
 {
-  "name": "word-search-kata",
-  "version": "0.0.0",
+  "name": "kata-base",
+  "version": "0.1.0",
   "description": "Base Repo for JavaScript Code Katas",
   "author": "Matt Morgan",
   "private": false,
@@ -48,10 +48,13 @@
   "licenses": [
     "MIT"
   ],
-  "dependencies": {},
   "bugs": {
     "url": "https://github.com/matthewmorgan/kata-base/issues"
   },
   "homepage": "https://github.com/matthewmorgan/kata-base#readme",
-  "main": "index.js"
+  "main": "index.js",
+  "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }
