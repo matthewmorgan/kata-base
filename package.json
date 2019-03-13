@@ -9,13 +9,16 @@
     "url": "git+https://github.com/matthewmorgan/kata-base.git"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-jest": "^24.5.0",
+    "eslint": "^5.15.1",
     "eslint-config-airbnb": "^15.0.1",
-    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^5.0.1",
-    "eslint-plugin-react": "^7.11.1",
-    "jest": "^20.0.1",
-    "jest-cli": "^20.0.4"
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.5.0",
+    "jest-cli": "^24.5.0"
   },
   "jest": {
     "modulePathIgnorePatterns": [
@@ -53,8 +56,5 @@
   },
   "homepage": "https://github.com/matthewmorgan/kata-base#readme",
   "main": "index.js",
-  "dependencies": {
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
-  }
+  "dependencies": {}
 }
